@@ -1381,7 +1381,7 @@ exports.default = ["Tether", "$compile", "$document", "$templateCache", "$rootSc
         if (step.tether) {
             step.tether.disable();
         }
-        step.popup[0].style.setProperty('display', 'none', 'important');
+        step.popup[0].style.setProperty('display', 'none');
     }
 
     /**
